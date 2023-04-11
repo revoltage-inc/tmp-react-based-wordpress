@@ -1,0 +1,37 @@
+/* NotoSansJP */
+
+@font-face {
+  src: url('./font/NotoSansJP/NotoSansJP-Light.woff2') format('woff2'),
+    url('./font/NotoSansJP/NotoSansJP-Light.woff') format('woff'),
+    url('./font/NotoSansJP/NotoSansJP-Light.otf') format('opentype');
+  font-family: 'noto-sans-jp';
+  font-weight: 300;
+  font-display: block;
+}
+
+@font-face {
+  src: url('./font/NotoSansJP/NotoSansJP-Regular.woff2') format('woff2'),
+    url('./font/NotoSansJP/NotoSansJP-Regular.woff') format('woff'),
+    url('./font/NotoSansJP/NotoSansJP-Regular.otf') format('opentype');
+  font-family: 'noto-sans-jp';
+  font-weight: 400;
+  font-display: block;
+}
+
+@font-face {
+  src: url('./font/NotoSansJP/NotoSansJP-Medium.woff2') format('woff2'),
+    url('./font/NotoSansJP/NotoSansJP-Medium.woff') format('woff'),
+    url('./font/NotoSansJP/NotoSansJP-Medium.otf') format('opentype');
+  font-family: 'noto-sans-jp';
+  font-weight: 500;
+  font-display: block;
+}
+
+@font-face {
+  src: url('./font/NotoSansJP/NotoSansJP-Bold.woff2') format('woff2'),
+    url('./font/NotoSansJP/NotoSansJP-Bold.woff') format('woff'),
+    url('./font/NotoSansJP/NotoSansJP-Bold.otf') format('opentype');
+  font-family: 'noto-sans-jp';
+  font-weight: 700;
+  font-display: block;
+}
