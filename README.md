@@ -47,7 +47,10 @@ npm run dev
 npm run build
 ```
 
-## フォントのサブセット
+## フォントのサブセットと変換
+
+下記のアプリでフォントのサブセットと変換を行う。  
+フォントに格納する文字は`subset.txt`を参照する。  
 
 - [サブセットフォントメーカー](https://opentype.jp/subsetfontmk.htm)
 - [WOFFコンバータ](https://opentype.jp/woffconv.htm)
