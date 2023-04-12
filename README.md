@@ -73,7 +73,9 @@ npm run build
 - [Vite](https://ja.vitejs.dev/)
 - [TailwindCSS](https://tailwindui.com/)
 - [SWR](https://swr.vercel.app/ja)
+- [date-fns](https://date-fns.org/)
 - [vite-plugin-pages](https://github.com/hannoeru/vite-plugin-pages)
+- [REST API Handbook](https://developer.wordpress.org/rest-api/)
 
 ### 推奨ライブラリ
 
@@ -81,8 +83,6 @@ npm run build
 - [React Hook Form](https://react-hook-form.com/)
 - [tRPC](https://trpc.io/)
 - [Prisma](https://www.prisma.io/)
-- [date-fns](https://date-fns.org/)
-- [SWR](https://github.com/vercel/swr)
 
 ## ライセンス
 
