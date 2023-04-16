@@ -1,7 +1,7 @@
 {
   "name": "tmp-react-based-wordpress",
   "version": "1.0.0",
-  "description": "Template for React based WordPress Theme",
+  "description": "Template for WordPress theme using React, Vite, TailwindCSS, etc.",
   "author": "@yogarasu",
   "type": "module",
   "scripts": {
