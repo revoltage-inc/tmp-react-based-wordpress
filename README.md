@@ -77,13 +77,6 @@ npm run build
 - [vite-plugin-pages](https://github.com/hannoeru/vite-plugin-pages)
 - [REST API Handbook](https://developer.wordpress.org/rest-api/)
 
-### 推奨ライブラリ
-
-- [Zod](https://zod.dev/)
-- [React Hook Form](https://react-hook-form.com/)
-- [tRPC](https://trpc.io/)
-- [Prisma](https://www.prisma.io/)
-
 ## ライセンス
 
 [MIT](https://opensource.org/licenses/MIT)
