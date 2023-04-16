@@ -1,4 +1,4 @@
-# tmp-wordpress(α)
+# tmp-react-based-wordpress
 
 このリポジトリは、Wordpressテーマのテンプレートです。  
 React、TailwindCSSなどを使用しています。  

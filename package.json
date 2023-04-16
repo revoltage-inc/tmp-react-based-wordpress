@@ -1,7 +1,7 @@
 {
-  "name": "tmp-wordpress",
+  "name": "tmp-react-based-wordpress",
   "version": "1.0.0",
-  "description": "Template for WordPress Theme",
+  "description": "Template for React based WordPress Theme",
   "author": "@yogarasu",
   "type": "module",
   "scripts": {
