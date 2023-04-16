@@ -9,7 +9,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "sb": "storybook dev -p 6006",
-    "update": "npx ncu -u && npx sb upgrade && npm install"
+    "update": "pnpm -r update --latest --depth 100 && npx sb upgrade -s && pnpm install --lockfile-only && npm install --package-lock-only"
   },
   "dependencies": {
     "date-fns": "^2.29.3",
@@ -34,7 +34,6 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-storybook": "^0.6.11",
     "eslint-plugin-tailwindcss": "^3.11.0",
-    "npm-check-updates": "^16.10.8",
     "postcss": "^8.4.22",
     "postcss-preset-env": "^8.3.1",
     "prettier": "^2.8.7",
