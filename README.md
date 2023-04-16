@@ -1,10 +1,10 @@
-# tmp-wordpress(α)
+# tmp-react-based-wordpress
 
-このリポジトリは、Wordpressテーマのテンプレートです。  
-React、TailwindCSSなどを使用しています。  
+このリポジトリは、ReactベースのWordpressテーマのテンプレートです。  
+構成にはViteやTailwindCSSが含まれます。  
 
-> **警告**  
-> このテンプレートはαステージです。  
+> **Warning**  
+> このテンプレートは個人的なベストプラクティスに基づいて作成されたものです。  
 > 破壊的な変更に注意してください。  
 
 ## 前提
@@ -20,9 +20,9 @@ React、TailwindCSSなどを使用しています。
 下記のコマンドで実行環境を作成する。  
 
 ```zsh
-volta install node@18.15.0 npm@9.6.4
+volta install node@18.16.0 npm@9.5.1 pnpm@8.2.0
 
-npm install
+pnpm install
 ```
 
 ### 環境変数の設定
@@ -57,7 +57,7 @@ npm run build
 
 ## スクリプト
 
-| スクリプト | 内容 |
+| スクリプト | 説明 |
 |:-------|:--------|
 | `npm run update`| パッケージの一括更新 |
 | `npm run dev` | ローカルサーバーの起動 |
@@ -76,13 +76,6 @@ npm run build
 - [date-fns](https://date-fns.org/)
 - [vite-plugin-pages](https://github.com/hannoeru/vite-plugin-pages)
 - [REST API Handbook](https://developer.wordpress.org/rest-api/)
-
-### 推奨ライブラリ
-
-- [Zod](https://zod.dev/)
-- [React Hook Form](https://react-hook-form.com/)
-- [tRPC](https://trpc.io/)
-- [Prisma](https://www.prisma.io/)
 
 ## ライセンス
 
